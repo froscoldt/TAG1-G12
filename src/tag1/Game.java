@@ -1,11 +1,9 @@
 
 package tag1;
-public class TAG1 {
+public class Game {
     public static void main(String[] args) {
-
-    // test
+        Go go = new Go();
     
-    //test 
     }
     
 }
