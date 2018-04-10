@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class Controller {
 
-    Player player = new Player("Toast",100);
     Room room1 = new Room("");
     Room room2 = new Room("");
     Room room3 = new Room("");
@@ -26,6 +25,9 @@ public class Controller {
     Room room19 = new Room("");
     Room room20 = new Room("");
 
+    public void createPlayer() {
+        Player player = new Player("Toast",100);
+    }
     public void setNeighbors() {
         // room 1
         room1.setEast(room2);
