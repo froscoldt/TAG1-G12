@@ -2,9 +2,9 @@ package tag1;
 
 import java.util.ArrayList;
 
-public class Dungeon {
+public class Controller {
 
-    
+    Player player = new Player("Toast",100);
     Room room1 = new Room("");
     Room room2 = new Room("");
     Room room3 = new Room("");

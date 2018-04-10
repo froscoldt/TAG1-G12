@@ -6,7 +6,7 @@ public class Go {
 
     Scanner sc = new Scanner(System.in);
     private String input;
-    Dungeon dun = new Dungeon();
+    Controller dun = new Controller();
 
     public Go() {
 
