@@ -9,7 +9,8 @@ public class Go {
     Controller dun = new Controller();
 
     public Go() {
-
+        dun.setNeighbors();
+        dun.createPlayer();
         do {
             input = sc.next();
 
